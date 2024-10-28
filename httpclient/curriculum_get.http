@@ -1,0 +1,4 @@
+### Get all curriculum
+GET http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}

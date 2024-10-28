@@ -1,0 +1,4 @@
+### Get all courses
+GET http://localhost:3001/courses
+Content-Type: application/json
+Authorization: Bearer {{token}}

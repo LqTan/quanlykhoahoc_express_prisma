@@ -1,0 +1,149 @@
+### Tạo curriculum mới: Data Analysis - Microsoft Platform
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR1",
+  "title": "Data Analysis - Microsoft Platform"
+}
+
+### Tạo curriculum mới: Data Analysis - Google Platform
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR2",
+  "title": "Data Analysis - Google Platform"
+}
+
+### Tạo curriculum mới: Chuyên đề Data Science & Machine Learning
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR3",
+  "title": "Chuyên đề Data Science & Machine Learning"
+}
+
+### Tạo curriculum mới: Lập trình ứng dụng
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR4",
+  "title": "Lập trình ứng dụng"
+}
+
+### Tạo curriculum mới: Kiểm thử phần mềm
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR5",
+  "title": "Kiểm thử phần mềm"
+}
+
+### Tạo curriculum mới: Master DevOps Engineer
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR6",
+  "title": "Master DevOps Engineer"
+}
+
+### Tạo curriculum mới: Mạng máy tính
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR7",
+  "title": "Mạng máy tính"
+}
+
+### Tạo curriculum mới: Tin học văn phòng
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR8",
+  "title": "Tin học văn phòng"
+}
+
+### Tạo curriculum mới: Đồ họa đa truyền thông
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR9",
+  "title": "Đồ họa đa truyền thông"
+}
+
+### Tạo curriculum mới: Tin học quốc tế
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR10",
+  "title": "Tin học quốc tế"
+}
+
+### Tạo curriculum mới: Digital Painting
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR11",
+  "title": "Digital Painting"
+}
+
+### Tạo curriculum mới: 3D & Xử lý phim
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR12",
+  "title": "3D & Xử lý phim"
+}
+
+### Tạo curriculum mới: Thiết kế website
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR13",
+  "title": "Thiết kế website"
+}
+
+### Tạo curriculum mới: Internet Marketing
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR14",
+  "title": "Internet Marketing"
+}
+
+### Tạo curriculum mới: Lập trình di động
+POST http://localhost:3001/curriculums
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "id_curriculum": "CUR15",
+  "title": "Lập trình di động"
+}

@@ -1,0 +1,8 @@
+### Get access token
+POST http://localhost:3001/accounts/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123"
+}

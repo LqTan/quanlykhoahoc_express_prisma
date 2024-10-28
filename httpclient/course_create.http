@@ -1,0 +1,661 @@
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE1
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Analysis Certificate (Excel & PowerBI)
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-01-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1000
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+800
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE2
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Analysis & Visualization with Power BI (Basic to Advanced)
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-02-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1200
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE3
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Analysis & Visualization with Power BI (Basic)
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-03-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1000
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE4
+--boundary
+Content-Disposition: form-data; name="title"
+
+Advanced Data Analysis with Power BI & SQL
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-04-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1500
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+1100
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE5
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Processing & Analysis with Excel
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-05-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+800
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+600
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE6
+--boundary
+Content-Disposition: form-data; name="title"
+
+Excel Fundamentals for Data Analysis
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-06-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+500
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE7
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Preprocessing with VBA
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-07-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+850
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+650
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE8
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Analysis & Visualization with Excel
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-08-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE9
+--boundary
+Content-Disposition: form-data; name="title"
+
+Machine Learning with Azure
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-09-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1400
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+1200
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE10
+--boundary
+Content-Disposition: form-data; name="title"
+
+Kể chuyện bằng dữ liệu - Data Storytelling
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-10-01T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR1
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE11
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Analytics Certificate
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-01-15T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1200
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+950
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR2
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE12
+--boundary
+Content-Disposition: form-data; name="title"
+
+SQL for Data Analytics
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-02-15T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1000
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+750
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR2
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE13
+--boundary
+Content-Disposition: form-data; name="title"
+
+Python for Data Analytics
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-03-15T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1100
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+850
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR2
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE14
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Visualization
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-04-15T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+950
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR2
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE15
+--boundary
+Content-Disposition: form-data; name="title"
+
+Machine Learning for Data Analytics
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-05-15T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1300
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+1050
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR2
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE16
+--boundary
+Content-Disposition: form-data; name="title"
+
+Data Science and Machine Learning Certificate Online
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-01-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1600
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+1300
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE17
+--boundary
+Content-Disposition: form-data; name="title"
+
+Artificial Intelligence and Applications for Business
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-02-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1700
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+1350
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE18
+--boundary
+Content-Disposition: form-data; name="title"
+
+Mathematics and Statistics for Data Science
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-03-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1200
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE19
+--boundary
+Content-Disposition: form-data; name="title"
+
+Computer Vision with Deep Learning
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-04-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+1500
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+1200
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE20
+--boundary
+Content-Disposition: form-data; name="title"
+
+R Programming for Data Science
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-05-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE21
+--boundary
+Content-Disposition: form-data; name="title"
+
+Deep Learning with Python
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-05-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
+###
+POST http://localhost:3001/courses
+Content-Type: multipart/form-data; boundary=boundary
+Authorization: Bearer {{token}}
+
+--boundary
+Content-Disposition: form-data; name="id_course"
+
+COURSE22
+--boundary
+Content-Disposition: form-data; name="title"
+
+Natural Language Processing with Deep Learning
+--boundary
+Content-Disposition: form-data; name="opening_day"
+
+2024-05-20T00:00:00Z
+--boundary
+Content-Disposition: form-data; name="original_fee"
+
+900
+--boundary
+Content-Disposition: form-data; name="current_fee"
+
+700
+--boundary
+Content-Disposition: form-data; name="id_curriculum"
+
+CUR3
+--boundary--
