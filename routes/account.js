@@ -34,7 +34,7 @@ router.post('/login', async (req, res) => {
 });
 
 // Create a new account
-router.post('/', upload.single('avatar'), async (req, res) => {
+router.post('/', upload('images').single('avatar'), async (req, res) => {
     const {id_account, username, password} = req.body;
     const avatarFile = req.file ? `${req.protocol}://${req.get('host')}/images/${req.file.filename}` : null;
 
@@ -80,7 +80,7 @@ router.get('/:id',authenticateJWT, async (req, res) => {
 });
 
 // Update an account
-router.put('/:id', authenticateJWT, upload.single('avatar'), async (req, res) => {
+router.put('/:id', authenticateJWT, upload('images').single('avatar'), async (req, res) => {
     const {id} = req.params;
     const {username, password} = req.body;
     const avatar = req.file ? `${req.protocol}://${req.get('host')}/images/${req.file.filename}` : null;

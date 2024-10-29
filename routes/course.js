@@ -6,7 +6,7 @@ const {authenticateJWT} = require('../middlewares/jwt_middleware');
 const {upload} = require('../middlewares/multer_middleware');
 const prisma = new PrismaClient();
 
-router.post('/', upload.single('course_thumbnail'), authenticateJWT, async (req, res) => {
+router.post('/', upload('images').single('course_thumbnail'), authenticateJWT, async (req, res) => {
     const {
         id_course,
         title,
@@ -67,7 +67,7 @@ router.get('/:id', async (req, res) => {
     }
 });
 
-router.put('/:id', upload.single('course_thumbnail'), authenticateJWT, async (req, res) => {
+router.put('/:id', upload('images').single('course_thumbnail'), authenticateJWT, async (req, res) => {
     const {id} = req.params;
     const {
         title,

@@ -11,6 +11,8 @@ var accountsRouter = require('./routes/account');
 var curriculumRouter = require('./routes/curriculum');
 var coursesRouter = require('./routes/course');
 var classRouter = require('./routes/class');
+var enrollmentRouter = require('./routes/enrollment');
+var postRouter = require('./routes/post');
 
 var app = express();
 
@@ -31,6 +33,8 @@ app.use('/accounts', accountsRouter);
 app.use('/curriculums', curriculumRouter);
 app.use('/courses', coursesRouter);
 app.use('/classes', classRouter);
+app.use('/enrollments', enrollmentRouter);
+app.use('/posts', postRouter);
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

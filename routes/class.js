@@ -85,29 +85,19 @@ router.delete('/:id', authenticateJWT, async (req, res) => {
     }
 });
 
-router.post('/join/:id', authenticateJWT, async (req, res) => {
-    const { id } = req.params;
-    const { id_account } = req.body;
+router.get('/classes-with-account/:id_account', async (req, res) => {
+    const { id_account } = req.params;
     try {
-        const classExist = await prisma.class.findUnique({
-            where: { id_class: id },
-        });
-        if (!classExist) {
-            return res.status(404).json({ error: 'Class not found' });
-        }
-        const accountExist = await prisma.account.findUnique({
-            where: { id_account },
-        });
-        if (!accountExist) {
-            return res.status(404).json({ error: 'Account not found' });
-        }
-        const newClassMember = await prisma.accountClass.create({
-            data: {
-                id_class: id,
-                id_account,
+        const classes = await prisma.class.findMany({
+            where: {
+                Enrollment: {
+                    some: {
+                        id_account: id_account,
+                    },
+                },
             },
         });
-        res.status(201).json(newClassMember);
+        res.status(200).json(classes);
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
